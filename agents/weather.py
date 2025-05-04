@@ -19,7 +19,7 @@ def get_weather(city: str):
 
 def run_command(command):
     print(f"commad:- {command}")
-    breakpoint()
+    # breakpoint()
     result = os.system(command = command)
     return result
 
